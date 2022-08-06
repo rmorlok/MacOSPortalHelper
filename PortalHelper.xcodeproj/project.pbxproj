@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B1DE6DE0EE6462B00517B64 /* PortalUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1DE6DD0EE6462B00517B64 /* PortalUser.m */; };
+		1B5CD3180EDF9A83004B63BF /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5CD3170EDF9A83004B63BF /* AppController.m */; };
+		1B5CD3200EDFA5E4004B63BF /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B5CD31F0EDFA5E4004B63BF /* Preferences.xib */; };
+		1B5CD3240EDFB06C004B63BF /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5CD3230EDFB06C004B63BF /* PreferencesController.m */; };
+		1B5CD3270EDFB0F7004B63BF /* PortalUsersController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5CD3260EDFB0F7004B63BF /* PortalUsersController.m */; };
+		1B8B05E10EFD78120044C76C /* PortalUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8B05E00EFD78120044C76C /* PortalUserManager.m */; };
+		1B8B07050F0A91AF0044C76C /* Cake.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1B8B07040F0A91AF0044C76C /* Cake.icns */; };
+		1B9848AC0EF8A8C7005D6BF1 /* PortalFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9848AB0EF8A8C7005D6BF1 /* PortalFileManager.m */; };
+		1B9848D20EF8B08C005D6BF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9848D10EF8B08C005D6BF1 /* AppDelegate.m */; };
+		1BB1A7BA0EEB2F53005155B9 /* ContextMenuTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB1A7B90EEB2F53005155B9 /* ContextMenuTableView.m */; };
+		1BDF56510EFC5902004F76FC /* SelectUser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BDF56500EFC5902004F76FC /* SelectUser.xib */; };
+		1BDF56540EFC5916004F76FC /* SelectUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF56530EFC5916004F76FC /* SelectUserController.m */; };
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1B1DE6DC0EE6462B00517B64 /* PortalUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortalUser.h; sourceTree = "<group>"; };
+		1B1DE6DD0EE6462B00517B64 /* PortalUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortalUser.m; sourceTree = "<group>"; };
+		1B5CD3160EDF9A83004B63BF /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		1B5CD3170EDF9A83004B63BF /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		1B5CD31F0EDFA5E4004B63BF /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		1B5CD3220EDFB06C004B63BF /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		1B5CD3230EDFB06C004B63BF /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		1B5CD3250EDFB0F7004B63BF /* PortalUsersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortalUsersController.h; sourceTree = "<group>"; };
+		1B5CD3260EDFB0F7004B63BF /* PortalUsersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortalUsersController.m; sourceTree = "<group>"; };
+		1B8B05DF0EFD78120044C76C /* PortalUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortalUserManager.h; sourceTree = "<group>"; };
+		1B8B05E00EFD78120044C76C /* PortalUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortalUserManager.m; sourceTree = "<group>"; };
+		1B8B07040F0A91AF0044C76C /* Cake.icns */ = {isa = PBXFileReference; explicitFileType = image.icns; path = Cake.icns; sourceTree = SOURCE_ROOT; };
+		1B9848AA0EF8A8C7005D6BF1 /* PortalFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortalFileManager.h; sourceTree = "<group>"; };
+		1B9848AB0EF8A8C7005D6BF1 /* PortalFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortalFileManager.m; sourceTree = "<group>"; };
+		1B9848D00EF8B08C005D6BF1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B9848D10EF8B08C005D6BF1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BB1A7B80EEB2F53005155B9 /* ContextMenuTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextMenuTableView.h; sourceTree = "<group>"; };
+		1BB1A7B90EEB2F53005155B9 /* ContextMenuTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextMenuTableView.m; sourceTree = "<group>"; };
+		1BB1A8040EF22B6E005155B9 /* Error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Error.h; sourceTree = "<group>"; };
+		1BDF56500EFC5902004F76FC /* SelectUser.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectUser.xib; sourceTree = "<group>"; };
+		1BDF56520EFC5916004F76FC /* SelectUserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectUserController.h; sourceTree = "<group>"; };
+		1BDF56530EFC5916004F76FC /* SelectUserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectUserController.m; sourceTree = "<group>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* PortalHelper_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortalHelper_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* PortalHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortalHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1B5CD3160EDF9A83004B63BF /* AppController.h */,
+				1B5CD3170EDF9A83004B63BF /* AppController.m */,
+				1B5CD3220EDFB06C004B63BF /* PreferencesController.h */,
+				1B5CD3230EDFB06C004B63BF /* PreferencesController.m */,
+				1B5CD3250EDFB0F7004B63BF /* PortalUsersController.h */,
+				1B5CD3260EDFB0F7004B63BF /* PortalUsersController.m */,
+				1B1DE6DC0EE6462B00517B64 /* PortalUser.h */,
+				1B1DE6DD0EE6462B00517B64 /* PortalUser.m */,
+				1BB1A7B80EEB2F53005155B9 /* ContextMenuTableView.h */,
+				1BB1A7B90EEB2F53005155B9 /* ContextMenuTableView.m */,
+				1BB1A8040EF22B6E005155B9 /* Error.h */,
+				1B9848AA0EF8A8C7005D6BF1 /* PortalFileManager.h */,
+				1B9848AB0EF8A8C7005D6BF1 /* PortalFileManager.m */,
+				1B9848D00EF8B08C005D6BF1 /* AppDelegate.h */,
+				1B9848D10EF8B08C005D6BF1 /* AppDelegate.m */,
+				1BDF56520EFC5916004F76FC /* SelectUserController.h */,
+				1BDF56530EFC5916004F76FC /* SelectUserController.m */,
+				1B8B05DF0EFD78120044C76C /* PortalUserManager.h */,
+				1B8B05E00EFD78120044C76C /* PortalUserManager.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* PortalHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* PortalHelper */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = PortalHelper;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* PortalHelper_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B8B07040F0A91AF0044C76C /* Cake.icns */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				1B5CD31F0EDFA5E4004B63BF /* Preferences.xib */,
+				1BDF56500EFC5902004F76FC /* SelectUser.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* PortalHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "PortalHelper" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PortalHelper;
+			productInstallPath = "$(HOME)/Applications";
+			productName = PortalHelper;
+			productReference = 8D1107320486CEB800E47090 /* PortalHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PortalHelper" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* PortalHelper */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* PortalHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				1B5CD3200EDFA5E4004B63BF /* Preferences.xib in Resources */,
+				1BDF56510EFC5902004F76FC /* SelectUser.xib in Resources */,
+				1B8B07050F0A91AF0044C76C /* Cake.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				1B5CD3180EDF9A83004B63BF /* AppController.m in Sources */,
+				1B5CD3240EDFB06C004B63BF /* PreferencesController.m in Sources */,
+				1B5CD3270EDFB0F7004B63BF /* PortalUsersController.m in Sources */,
+				1B1DE6DE0EE6462B00517B64 /* PortalUser.m in Sources */,
+				1BB1A7BA0EEB2F53005155B9 /* ContextMenuTableView.m in Sources */,
+				1B9848AC0EF8A8C7005D6BF1 /* PortalFileManager.m in Sources */,
+				1B9848D20EF8B08C005D6BF1 /* AppDelegate.m in Sources */,
+				1BDF56540EFC5916004F76FC /* SelectUserController.m in Sources */,
+				1B8B05E10EFD78120044C76C /* PortalUserManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PortalHelper_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = PortalHelper;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PortalHelper_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = PortalHelper;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "PortalHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PortalHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
