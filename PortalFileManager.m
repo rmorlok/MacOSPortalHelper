@@ -3,7 +3,7 @@
 //  PortalHelper
 //
 //  Created by Ryan Morlok on 12/16/08.
-//  Copyright 2008 EmergingSoft Corporation. All rights reserved.
+//  Copyright 2008 Morlok Technologies, Inc. All rights reserved.
 //
 
 #import "PortalFileManager.h"
